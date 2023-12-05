@@ -83,9 +83,11 @@ The schematic below shows the HiLetGo PN523 gets its power from the 5V and GND p
 
 ## Source Code 
 
-The language for the code used for this device was C++, as Arduino uses it. Below is a GitHub link where we have uploaded the source code for free use and manipulation. 
+Below are GitHub links to where we have uploaded the source code for free use and manipulation. 
 
-link to code here
+- [Source Code Folder](https://github.com/EzraRC/CSC4640-Project2/blob/main/src/)
+- [Main Code File](https://github.com/EzraRC/CSC4640-Project2/blob/main/src/Project_2.ino)
+- [Bad USB Script](insert link here)
 
  
 
@@ -108,24 +110,36 @@ link to code here
 ## IRL Pictures
 
 ### Without Lid
-images
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project2/blob/main/Images/IRL/Box%201.jpg" alt="Box 1" width="500"/>
+ <img src="https://github.com/EzraRC/CSC4640-Project2/blob/main/Images/IRL/Box%202.jpg" alt="Box 2" width="280"/>
+</p>
 
 
 ### Completed Box with Lid
-images
-
-
-## IRL Videos
-
-Description
-
-[Click here to see the video!](www.youtube.com)
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project2/blob/main/Images/IRL/Completed%20Box%201.jpg" alt="Completed Box 1" width="386"/>
+ <img src="https://github.com/EzraRC/CSC4640-Project2/blob/main/Images/IRL/Completed%20Box%202.jpg" alt="Completed Box 2" width="500"/>
+</p>
 
 ## Device Testing
 
 Description
 
-### Testing
+### RFID / NFC Testing
+Description
+
+GIF DEMO
+
+### Wi-Fi Sniffer Testing
+Description
+
+GIF DEMO
+
+### Bad USB Testing
+Description
+
+GIF DEMO
 
 
 ## Dimensions 
@@ -140,7 +154,7 @@ Below feature two tables which give the length, width, and height of the box and
 | Length (in centimeters) |  15.70cm |
 | Width (in centimeters)  |  04.70cm |
 | Height (in centimeters) |  04.00cm |
-| Weight (in grams)       |  |
+| Weight (in grams)       |  153.00g|
 
 ### Lid Dimensions
 
@@ -149,7 +163,7 @@ Below feature two tables which give the length, width, and height of the box and
 | Length (in centimeters) |  15.70cm |
 | Width (in centimeters)  |  04.70cm |
 | Height (in centimeters) |  01.60cm |
-| Weight (in grams)       |  |
+| Weight (in grams)       |  35.00g|
 
 ### Completed Box Dimensions
 
@@ -158,7 +172,7 @@ Below feature two tables which give the length, width, and height of the box and
 | Length (in centimeters) |   15.70cm |
 | Width (in centimeters)  |   04.70cm |
 | Height (in centimeters) |   05.00cm |
-| Weight (in grams)       |   |
+| Weight (in grams)       |   188.00g|
 
 
 ## Conclusion 
