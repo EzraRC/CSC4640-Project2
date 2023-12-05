@@ -1,15 +1,28 @@
-# CSC4640 Project 2 - RFIDuo: Dual-Mode NFC Card Reader and Writer
+# CSC4640 Project 2 - RFIDuo: Multi-tool Pentesting and Ethical Hacking Device
 
 ## Project Description 
 
-For this educational project, we're leveraging the capabilities of the Arduino Nano IoT 33 combined with the HiLetgo PN532 Module. The objective is to construct a modest device adept at receiving and transmitting RFID and NFC signals, similar to devices such as the Flipper Zero. The main functionality allows it to scan NFC cards, and from these scans, capture their hexadecimal data. This data can then either be stored locally on the Arduino Nano IoT 33 or transferred to an external device, including mobile phone applications. With the acquired data in hand, the device offers the utility to emulate the original NFC cards.
+This educational project merges the Arduino Nano IoT 33 with the HiLetgo PN532 Module to create a compact device capable of receiving and transmitting RFID and NFC signals, akin to the Flipper Zero. The main function is to scan NFC cards, capturing their hexadecimal data, which can be stored on the Arduino Nano IoT 33 or transferred to external devices, including mobile apps. Additionally, the device incorporates WiFi sniffing for analyzing nearby networks and features Bad USB scripting capabilities for ethical hacking exercises. This project provides a hands-on experience in RFID, NFC, WiFi protocols, Arduino programming, and cybersecurity concepts.
 
  
 
 ## Specifications 
 
-Description
+**RFID and NFC Capabilities:**
+- Utilizes Arduino Nano IoT 33 and HiLetgo PN532 Module.
+- Scans RFID and NFC signals, similar to Flipper Zero.
+- Captures hexadecimal data from NFC cards.
 
+**WiFi Sniffing:**
+- Incorporates WiFi sniffing capabilities.
+- Analyzes nearby WiFi signals for educational insights.
+- Identifies nearby Access Points
+- Lists the password security being used
+
+**Bad USB Scripting:**
+- Features Bad USB scripting capabilities.
+- Enables emulation of a USB device for ethical hacking exercises.
+- Runs a script to display the Star Wars movie command in CMDprompt to demonstrate exploitability
  
 
 ## Bill of Materials 
