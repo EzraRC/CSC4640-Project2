@@ -1,5 +1,10 @@
 # CSC4640 Project 2 - RFIDuo: Multi-tool Pentesting and Ethical Hacking Device
 
+## Informative Summary Poster
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project2/blob/main/Images/Final%20Poster.png" alt="Canva Poster" width="500"/>
+</p>
+
 ## Project Description 
 
 This educational project merges the Arduino Nano IoT 33 with the HiLetgo PN532 Module to create a compact device capable of receiving and transmitting RFID and NFC signals, akin to the Flipper Zero. The main function is to scan NFC cards, capturing their hexadecimal data, which can be stored on the Arduino Nano IoT 33 or transferred to external devices, including mobile apps. Additionally, the device incorporates WiFi sniffing for analyzing nearby networks and features Bad USB scripting capabilities for ethical hacking exercises. This project provides a hands-on experience in RFID, NFC, WiFi protocols, Arduino programming, and cybersecurity concepts.
@@ -63,8 +68,6 @@ Most of the software listed are by preference except for Arduino IDE which is ne
 
 ## Block Diagram of Device 
 
-Description
-
 <p float="left">
  <img src="https://github.com/EzraRC/CSC4640-Project2/blob/main/Images/Diagrams/Block%20Diagram.png" alt="Block Diagram" width="600"/>
 </p>
@@ -87,7 +90,7 @@ Below are GitHub links to where we have uploaded the source code for free use an
 
 - [Source Code Folder](https://github.com/EzraRC/CSC4640-Project2/blob/main/src/)
 - [Main Code File](https://github.com/EzraRC/CSC4640-Project2/blob/main/src/Project_2.ino)
-- [Bad USB Script](insert link here)
+- [Bad USB Script](https://github.com/EzraRC/CSC4640-Project2/blob/main/src/payload.dd)
 
  
 
@@ -124,22 +127,29 @@ Below are GitHub links to where we have uploaded the source code for free use an
 
 ## Device Testing
 
-Description
+Here, we demonstrate the device in action, showing the features that we have implemented.
 
 ### RFID / NFC Testing
-Description
 
-GIF DEMO
+Successful Scan
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project2/blob/main/Images/GIF/Success%20RFID%20Scan%20(1).gif" alt="Scan Success" width="386"/>
+</p>
+
+Failed Scan
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project2/blob/main/Images/GIF/Fail%20RFID%20Scan%20(1).gif" alt="Scan Fail" width="500"/>
+</p>
 
 ### Wi-Fi Sniffer Testing
-Description
-
-GIF DEMO
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project2/blob/main/Images/GIF/Networks-1.gif" alt="WiFi Sniffer" width="500"/>
+</p>
 
 ### Bad USB Testing
-Description
-
-GIF DEMO
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project2/blob/main/Images/GIF/Bad%20USB.gif" alt="Bad USB" width="500"/>
+</p>
 
 
 ## Dimensions 
@@ -176,4 +186,11 @@ Below feature two tables which give the length, width, and height of the box and
 
 
 ## Conclusion 
-Description
+
+After dedicating approximately three weeks to the project, our team successfully developed a multifunctional device with RFID Read capabilities, a Bad USB feature, and WiFi sniffing functionalities. We have successfully created our own version of the renowned Flipper Zero device! However, we have identified several areas for improvement, outlined below:
+
+- On-Off Switch: This feature would allow users to power on and off the device without the need to physically open its casing, streamlining the user experience.
+
+- Optimized Wire Management: Recognizing the significance of efficient wire management, our team aims to implement better organization and structure for the internal wiring of the device.
+
+- Increased RFID Read Success Rate: To elevate the performance of the RFID capabilities, we are committed to refining the system to achieve a higher frequency of successful RFID reads.
