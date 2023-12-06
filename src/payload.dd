@@ -1,0 +1,13 @@
+GUI r
+DELAY 100
+STRING cmd
+ENTER
+DELAY 1000
+STRING pkgmgr /iu:"TelnetClient"
+ENTER
+DELAY 500
+STRING telnet telehack.com
+ENTER
+DELAY 500
+STRING starwars
+ENTER
