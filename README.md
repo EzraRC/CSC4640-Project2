@@ -55,6 +55,7 @@ These items can be purchased through any reputable sellers, however, the links p
 | 1 | Arduino IDE          | USD 0.00                              | https://www.arduino.cc/en/software                      |
 | 2 | Autodesk Fusion 360  | USD 0.00* (Free for College Students) | https://www.autodesk.com/campaigns/education/fusion-360 |
 | 3 | UltiMaker Cura 5.4.0 | USD 0.00                              | https://www.ultimaker.com/software/ultimaker-cura/      |
+| 4 | BadUSB Files         | USD 0.00                              | https://github.com/dbisu/pico-ducky/tree/main           |
 
 #### Additional Requirements for Arduino IDE
 Within Arduino IDE, there are a couple of Libraries that need to be installed to get the Adafruit Featherwing OLED add-ons to work with the Arduino. The following list is all the additional libraries that need to be installed within the Arduino IDE: 
